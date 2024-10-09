@@ -11074,11 +11074,127 @@ body{
 .shopifylist{
   list-style: none;
 }
-.web-images img{
-  width: 30%;
-}
 
 .self-learning-style{
   list-style: none;
 
+}
+
+.shopify-img{
+  width: 200px;
+  height: 100px;
+  padding: 5px;
+}
+
+.hr{
+  color: black;
+  width: 100%;
+}
+.links-design{
+  color: grey;
+  transition: all 0.5s
+}
+
+.links-design:hover{
+  transition: 0.2s ease-in-out;
+}
+
+.links-design1{
+  transition: all 0.5s
+}
+.links-design1:hover{
+  transition: 0.2s ease-in-out;
+}
+.shopify-section img{
+  transition: transform .2s;
+}
+.shopify-section img:hover{
+  transform: scale(1.1);
+}
+
+
+figure {
+	width: 250px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+figure img{
+  width: 250px;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+.hover14 figure {
+	position: relative;
+}
+.hover14 figure::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.hover14 figure:hover::before {
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+.column {
+	margin: 15px 15px 0;
+	padding: 0;
+}
+.column:last-child {
+	padding-bottom: 60px;
+}
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div {
+	position: relative;
+	float: left;
+	width: 260px;
+	height: 150px;
+	margin: 0 0 0 2px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.column div span{
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
 }
