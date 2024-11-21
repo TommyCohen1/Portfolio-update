@@ -156,6 +156,23 @@ h6, .h6 {
   font-size: 1rem;
 }
 
+.h61, .h62{
+  display: inline;
+  text-decoration: underline #040b14;
+}
+.h62{
+  color: #b12126;
+
+}
+
+.h51{
+  color: #d61c4b;
+  display: inline;
+}
+.h51, .h52{
+  display: inline;
+  text-decoration: underline #040b14;
+}
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -11091,7 +11108,7 @@ body{
   width: 100%;
 }
 .links-design{
-  color: grey;
+  color: #22528f;
   transition: all 0.5s
 }
 
@@ -11112,7 +11129,14 @@ body{
   transform: scale(1.1);
 }
 
-
+.ips-img{
+  width: 75px;
+  display: inline;
+}
+.Shufersal-img{
+width: 75px;
+display: inline;
+}
 figure {
 	width: 250px;
 	margin: 0;
