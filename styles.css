@@ -11225,3 +11225,7 @@ figure:hover+span {
 embed{
   display: block;
 }
+
+.automation-collage-photo{
+  width: 300px;
+}
